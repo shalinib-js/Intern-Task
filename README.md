@@ -1,17 +1,20 @@
 # 🛒 Product Management App (React + Backend)
 
-A full-stack product management application built using **React (Vite)** for the frontend and **Node.js + Express** for the backend. This project demonstrates clean UI components, backend APIs, and a well-structured full-stack setup.
+A full-stack web application that allows users to browse products, view product details, and manage authentication. The project is built using React for the frontend and Node.js + Express with MongoDB for the backend.
 
 ---
 
 ## 📌 Features
 
+- Login form with validation
 - User login authentication
+- User data stored in MongoDB
 - Product listing
-- Product search and filter
-- Product details page
-- REST API integration
-- Modular frontend components
+- Product search functionality
+- Product filtering by category
+- Product details view
+- RESTful API integration
+- Responsive UI built with React
 
 ---
 
@@ -26,20 +29,69 @@ A full-stack product management application built using **React (Vite)** for the
 ### Backend
 - Node.js
 - Express.js
-
-### Tools
-- Git
-- GitHub
-- npm
+- MongoDB
+- Mongoose
 
 ---
+## 🗂️ Project Structure
+<pre>
+Intern-Task
+│
+├── Frontend
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+│
+├── Backend
+│   ├── models
+│   │   ├── User.js
+│   │   └── product.js
+│   │
+│   ├── routes
+│   │   ├── auth.js
+│   │   └── productRoutes.js
+│   │
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+</pre>
 
+### Project Architecture
+The application follows a client–server architecture:
+<pre>
+Frontend (React + Vite)
+        ↓
+REST API Requests
+        ↓
+Backend (Node.js + Express)
+        ↓
+Database (MongoDB)
+</pre>
+
+##  Screenshots
+![Screenshot_7-3-2026_20353_localhost](https://github.com/user-attachments/assets/9792fe17-c894-4854-8a65-105fac8879b0)
+![Screenshot_7-3-2026_20414_localhost](https://github.com/user-attachments/assets/ee7f47dc-f904-4cf3-b007-d4452305d0d9)
+![Screenshot_7-3-2026_20528_localhost](https://github.com/user-attachments/assets/9869aace-5285-497e-a6fd-502669fe2e44)
+
+
+## 📦 Setup Instructions
+Clone the repo and run the app locally:
+```bash
+git clone https://github.com/your-username/intern-task.git
+cd intern-task
 
 ###  Frontend (React)
 
 ```bash
+cd Frontend
 npm install
 npm run dev
+
 
 ###  Run Backend (Node.js)
 
