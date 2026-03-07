@@ -18,7 +18,7 @@ A full-stack web application that allows users to browse products, view product 
 
 ---
 
-##  Tech Stack
+## 🚀 Tech Stack
 
 ### Frontend
 - React (Vite)
@@ -61,8 +61,9 @@ Intern-Task
 └── README.md
 </pre>
 
-### Project Architecture
-The application follows a client–server architecture:
+## Project Architecture
+
+### The application follows a client–server architecture:
 <pre>
 Frontend (React + Vite)
         ↓
@@ -79,26 +80,40 @@ Database (MongoDB)
 ![Screenshot_7-3-2026_20528_localhost](https://github.com/user-attachments/assets/9869aace-5285-497e-a6fd-502669fe2e44)
 
 
-## 📦 Setup Instructions
-Clone the repo and run the app locally:
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/intern-task.git
 cd intern-task
+```
 
-###  Frontend (React)
+---
+
+### 2️⃣ Run Frontend (React)
 
 ```bash
 cd Frontend
 npm install
 npm run dev
+```
 
+Frontend will run on:
+`http://localhost:5173`
 
-###  Run Backend (Node.js)
+---
+
+### 3️⃣ Run Backend (Node.js)
 
 ```bash
 cd Backend
 npm install
 npm run start-dev
+```
+
+Backend server will run on:
+`http://localhost:5000`
 
 
 
