@@ -1,6 +1,6 @@
 # 🛒 Product Management App (React + Backend)
 
-A full-stack web application that allows users to browse products, view product details, and manage authentication. The project is built using React for the frontend and Node.js + Express with MongoDB for the backend.
+A full-stack web application that allows users to browse products, view product details, and manage authentication. The project is built using React for the frontend and Node.js + Express with MongoDB for the backend(`MERN Stack`).
 
 ---
 
